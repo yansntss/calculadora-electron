@@ -6,7 +6,7 @@ function createWindow() {
   // Cria uma janela de navegação.
   const win = new BrowserWindow({
     width: 300,
-    height: 350,
+    height: 360,
     icon: __dirname + "/src/assets/calculadora.png",
     
     webPreferences: {

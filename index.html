@@ -14,36 +14,105 @@
   </head>
   <body>
     <div id="content">
-      <header>
-        <div id="display">0</div>
-      </header>
-      <div id="number">
-        <div id="firt">
-          <input type="button" value="7" />
-          <input type="button" value="8" />
-          <input type="button" value="9" />
-          <input type="button" value="/" />
+      <form action="" name="calc">
+        <div id="calculator">
+          <p id="display"></p>
+          <div id="firt">
+            <input
+              type="button"
+              value="7"
+              id="button-7"
+              class="button border"
+            />
+            <input
+              type="button"
+              value="8"
+              class="button border"
+              id="button-8"
+            />
+            <input
+              type="button"
+              value="9"
+              class="button border"
+              id="button-9"
+            />
+            <input type="button" value="/" class="button border"  id="divide"/>
+          </div>
+          <div id="second">
+            <input
+              type="button"
+              value="4"
+              class="button border"
+              id="button-4"
+            />
+            <input
+              type="button"
+              value="5"
+              class="button border"
+              id="button-5"
+            />
+            <input
+              type="button"
+              value="6"
+              class="button border"
+              id="button-6"
+            />
+            <input
+              type="button"
+              value="*"
+              class="button border"
+              id="times"
+            />
+          </div>
+          <div id="third">
+            <input
+              type="button"
+              value="1"
+              class="button border"
+              id="button-1"
+            />
+            <input
+              type="button"
+              value="2"
+              class="button border"
+              id="button-2"
+            />
+            <input
+              type="button"
+              value="3"
+              class="button border"
+              id="button-3"
+            />
+            <input
+              type="button"
+              value="-"
+              class="button border"
+              id="minus"
+            />
+          </div>
+          <div id="bedroom">
+            <input type="button" value="c" class="button border" id="clean" />
+
+            <input type="button" value="," class="button border" id="comma" />
+
+            <input
+              type="button"
+              value="0"
+              class="button border"
+              id="button-0"
+            />
+            <input
+              type="button"
+              value="="
+              class="button border"
+              id="results"
+            />
+            <input type="button" value="+" class="button border" id="plus"/>
+          </div>
         </div>
-        <div id="second">
-          <input type="button" value="4" />
-          <input type="button" value="5" />
-          <input type="button" value="6" />
-          <input type="button" value="*" />
-        </div>
-        <div id="third">
-          <input type="button" value="1" />
-          <input type="button" value="2" />
-          <input type="button" value="3" />
-          <input type="button" value="-" />
-        </div>
-        <div id="bedroom">
-          <input type="button" value="c" />
-          <input type="button" value="0" />
-          <input type="button" value="=" />
-          <input type="button" value="+" />
-        </div>
-      </div>
+      </form>
     </div>
   </body>
+  <script src="src/scripts/calulator.js"></script>
   <script src="http://localhost:4567/livereload.js"></script>
 </html>
